@@ -15,7 +15,7 @@ class Student:
     def __init__(self, name, age):
         """
         Initialize a Student instance
-    
+
         Args:
             name (str): Student's name
             age (int): Student's age
@@ -23,17 +23,17 @@ class Student:
         # Public attributes
         self.name = name
         self.age = age
-    
-        # Protected attribute (convention: single underscore)
+
+     # Protected attribute (convention: single underscore)
         self._student_id = None
-    
-        # Private attribute (name mangling: double underscore)
+
+     # Private attribute (name mangling: double underscore)
         self.__grade = None
 
     def get_info(self):
         """
         Public method to get student information
-     
+
         Returns:
             str: Student information
         """
@@ -42,7 +42,7 @@ class Student:
     def _set_student_id(self, student_id):
         """
         Protected method (convention: single underscore)
-       
+    
         Args:
             student_id (str): Student ID to set
         """
@@ -51,7 +51,7 @@ class Student:
     def __calculate_gpa(self):
         """
         Private method (name mangling: double underscore)
-        
+
         Returns:
             float: Calculated GPA
         """
