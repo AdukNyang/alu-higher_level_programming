@@ -18,7 +18,7 @@ class Square:
     @property
     def size(self):
         """Get the size of the square.
-    
+
         Returns:
             The size of the square.
         """
@@ -44,7 +44,7 @@ class Square:
     @property
     def position(self):
         """Get the position of the square.
-    
+
         Returns:
             The position of the square.
         """
@@ -53,10 +53,10 @@ class Square:
     @position.setter
     def position(self, value):
         """Set the position of the square.
-    
+
         Args:
             value: The new position value.
-      
+ 
         Raises:
             TypeError: If value is not a tuple of 2 positive integers.
         """
@@ -67,7 +67,7 @@ class Square:
 
     def area(self):
         """Return the current square area.
-    
+
         Returns:
             The area of the square.
         """
