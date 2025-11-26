@@ -12,7 +12,7 @@ class MagicClass:
 
         Args:
             radius: The radius value.
-  
+
         Raises:
             TypeError: If radius is not a number.
         """
