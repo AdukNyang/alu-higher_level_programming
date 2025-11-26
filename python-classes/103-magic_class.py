@@ -9,10 +9,10 @@ class MagicClass:
 
     def __init__(self, radius=0):
         """Initialize MagicClass with radius.
-        
+
         Args:
             radius: The radius value.
-            
+  
         Raises:
             TypeError: If radius is not a number.
         """
@@ -23,7 +23,7 @@ class MagicClass:
 
     def area(self):
         """Calculate and return the area of the circle.
-        
+
         Returns:
             The area of the circle.
         """
@@ -31,7 +31,7 @@ class MagicClass:
 
     def circumference(self):
         """Calculate and return the circumference of the circle.
-        
+
         Returns:
             The circumference of the circle.
         """
