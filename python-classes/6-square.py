@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a square with a given size and position.
-    
+
         Args:
             size: The size of the square (default: 0).
             position: The position of the square (default: (0, 0)).
@@ -27,10 +27,10 @@ class Square:
     @size.setter
     def size(self, value):
         """Set the size of the square.
-        
+ 
         Args:
             value: The new size value.
-      
+
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.
@@ -56,7 +56,7 @@ class Square:
 
         Args:
             value: The new position value.
- 
+
         Raises:
             TypeError: If value is not a tuple of 2 positive integers.
         """
